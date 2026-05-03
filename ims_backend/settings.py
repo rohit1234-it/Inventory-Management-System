@@ -25,7 +25,13 @@ SECRET_KEY = 'django-insecure-0)d-bx83(@ijwbl@j&pmbdk#r91m&y0lu8$%w&pjmv#%@71-qt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+import os
+
+DEBUG = os.environ.get("DEBUG") == "True"
+
+ALLOWED_HOSTS = ['.onrender.com']
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
 # Application definition
@@ -73,7 +79,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'ims_backend.wsgi.application'
 
-
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
