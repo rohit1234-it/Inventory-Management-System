@@ -1,0 +1,11 @@
+asgiref==3.11.1
+Django==4.2.11
+django-cors-headers==4.9.0
+django-filter==25.2
+djangorestframework==3.17.1
+gunicorn==25.3.0
+mysqlclient==2.2.8
+packaging==26.2
+sqlparse==0.5.5
+tzdata==2025.3
+whitenoise==6.12.0
