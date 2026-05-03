@@ -1,3 +1,5 @@
+Django==4.2.11
 gunicorn
 whitenoise
-django
+django-cors-headers
+dj-database-url
