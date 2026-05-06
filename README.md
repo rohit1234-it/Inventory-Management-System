@@ -82,6 +82,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 📧 Contact
 
 Developer: Rohit Kasar
-Email: your-email@example.com
+Email: rohitkasar372@gmail.com
 
-GitHub: https://github.com/your-username
+GitHub: https://github.com/rohit1234-it
